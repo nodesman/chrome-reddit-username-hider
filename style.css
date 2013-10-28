@@ -1,0 +1,20 @@
+#header-bottom-right .user {
+  position: relative;
+}
+
+#header-bottom-right .user:before {
+   content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAABmJLR0QA/wD/AP+gvaeTAAABAklEQVQoka2RMU7DQBBF/x/FkCopVytKKigi6ChzAFO6CA0RkSxzg4giSDmGpSA6enMKGsQBaMnGNITSMvKkCEa2CHIi8buZfW92R0tUEoah51w6FeEAAIpCH6w1kziO85JpVQXn0inJseq6JjleLN4VwE3JSFUgeYnfGVYLqZ8pNwi11ARV3G9gar3aDtaaiXMpSI7WA3RmrbltuvV/87NkEAR7WfZ1BegIwOF3+5XUmTHmrvwLAoDv+wcirUcAp38MfgaK8yRJ5uz3h+1O5/MJ0F7Da17yPDuTbvfjegsYAE48bz8SVV5sAZcZCICjHYRjAbjcQViKKiIA82aWb6RGK63CTHLctDEJAAAAAElFTkSuQmCC");
+}
+
+#header-bottom-right .user a {
+   display: none;
+   border: 1px solid #ccc;
+   padding: 10px;
+   background-color: #fff;
+   position: absolute;
+   left: 0;
+   top: 10px;
+}
+#header-bottom-right .user:hover a {
+    display: block;
+}
